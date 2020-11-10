@@ -1,0 +1,26 @@
+@import "./style.scss";
+//
+.container.login-block {
+  .col-sm-12 {
+    nav {
+      ol {
+        background-color: #fff !important;
+      }
+    }
+    .main-con {
+      background-color: #fff !important;
+      border: none !important;
+      img {
+        height: 150px !important;
+      }
+      p.info {
+        width: 80%;
+        margin-left: 10%;
+        font-size: $main-font;
+        color: $main-color;
+        margin: 50px auto;
+        padding-bottom: 50px;
+      }
+    }
+  }
+}

@@ -1,0 +1,137 @@
+@import "./style.scss" ;
+/* start style for container login-block */
+  .container.login-block {
+  .row {
+    .col-sm-12 {
+      text-align: center;
+      .main-con {
+        border: 1px solid #ddd;
+        margin-bottom: 50px;
+        min-height: 500px;
+        background-color: #fff !important;
+      }
+      nav {
+        direction: rtl;
+        box-shadow: none;
+        margin: 50px auto;
+        background-color: transparent;
+
+        ol {
+          background-color: #fff !important;
+          li {
+            &::before {
+              padding-right: 0.8rem;
+              padding-left: 0.8rem;
+              font-size: $main-font;
+            }
+            a {
+              color: rgba($main-color, 0.7);
+              font-size: $main-font;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      span.call {
+        width: 100%;
+        height: 43px;
+        border: none;
+        outline: none;
+        background-color: $main-color;
+        color: $bg-color;
+        display: block;
+        text-align: center;
+        line-height: 2;
+        font-size: $main-font;
+      }
+      input {
+        width: 98%;
+        margin-left: 1%;
+        height: 40px;
+        border: 1px solid #ddd;
+        background-color: transparent;
+        outline: none;
+        text-align: right;
+        padding: 0 10px;
+        display: block;
+        margin-top: 20px;
+        font-size: $main-font;
+      }
+
+      textarea {
+        width: 98%;
+        margin-left: 1%;
+        min-height: 130px;
+        max-height: 150px;
+        border: 1px solid #ddd;
+        background-color: transparent;
+        outline: none;
+        text-align: right;
+        padding: 10px 10px;
+        display: block;
+        margin-top: 20px;
+        font-size: $main-font;
+      }
+      button {
+        width: 98%;
+        margin: 15px 0 15px 0;
+        margin-left: 1%;
+        text-align: center;
+        a {
+          text-decoration: none;
+          color: $bg-color;
+          font-size: $main-font;
+        }
+      }
+      img {
+        height: 100px;
+        margin: 30px auto;
+        text-align: center;
+      }
+      ul {
+        text-align: right;
+        margin-right: 15px;
+
+        li {
+          margin: 10px 0 0 0;
+          list-style: none;
+          font-size: $main-font;
+          span {
+            padding-right: 15px;
+          }
+        }
+      }
+      h4 {
+        margin: 10px auto;
+        color: $heading-color;
+        margin-top: 70px;
+      }
+      i {
+        width: 30px;
+        height: 30px;
+        border: none;
+        line-height: 2;
+        color: #fff;
+        margin: 10px;
+      }
+      i:nth-of-type(1) {
+        background-color: #3a549f;
+      }
+      i:nth-of-type(2) {
+        background-color: #50abf1;
+      }
+      i:nth-of-type(3) {
+        background-color: #dd472f;
+      }
+      i:nth-of-type(4) {
+        background-color: #c335a6;
+      }
+      i:nth-of-type(5) {
+        background-color: #1ad540;
+      }
+      i:nth-of-type(6) {
+        background-color: #de4b39;
+      }
+    }
+  }
+}

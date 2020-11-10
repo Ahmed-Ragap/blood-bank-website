@@ -1,0 +1,83 @@
+@import "./style.scss" ;
+//
+.container.login-block {
+  .col-sm-12 {
+    nav {
+      ol {
+        background-color: #fff;
+      }
+    }
+    img {
+      height: 400px !important;
+      margin: -50px 0 30px 0 !important;
+      //start media for max screen size 991px
+      @media (max-width: 991px) {
+        height: 250px !important;
+      }
+    }
+    .main-con {
+      background-color: #fff !important;
+      border: none !important;
+      .head-content {
+        width: 100% !important;
+        height: 70px;
+        background-color: $main-color;
+        display: block;
+        text-align: center;
+        button {
+          width: 40px;
+          height: 40px;
+          @include border-R(50%);
+          background-color: transparent;
+          border: 1px solid #fff;
+          float: left;
+          margin-left: 15px;
+
+          i.fa-heart {
+            color: #fff;
+            color: #fff;
+            margin-top: -4px;
+            margin-left: -4px;
+            background-color: transparent !important;
+          }
+        }
+        span {
+          text-align: right;
+          float: right;
+          color: #fff;
+          display: block;
+          line-height: 3;
+          margin-right: 20px;
+          font-size: $main-font + 1px;
+        }
+      }
+      p.info {
+        width: 97%;
+        font-size: $main-font;
+        color: $main-color;
+        margin: 50px auto;
+        padding-bottom: 50px;
+        text-align: right;
+        //start media for max screen size 991px
+        @media (max-width: 991px) {
+          width: 90%;
+          margin-left: 5%;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+/* start style for carousel */
+.container.caro {
+  h2 {
+    &::after {
+      width: 130px;
+      right: 85px;
+    }
+  }
+  .hs__item {
+    background-color: $bg-color;
+  }
+}
